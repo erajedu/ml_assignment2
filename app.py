@@ -274,9 +274,9 @@ elif page == "ML Prediction":
 
     # ------------------ SAMPLE FILE DOWNLOAD ------------------
     # ------------------ SAMPLE FILE DOWNLOAD ------------------
-    st.subheader("Download Sample Input File")
+    st.subheader("Download Test Data / Sample Input File")
     st.write(
-        "Sample file format for download - Input data need to be provided in same format with their respective column values."
+        "Download the Test Data or Sample file format for download - Input data need to be provided in same format with their respective column values."
     )    
 
     with open("sample_input_template.csv", "rb") as f:
@@ -565,3 +565,4 @@ st.markdown(
     "<p style='text-align:center;'>Assignment-2 Machine Learning | Student ID : 2025AA05373 | Student Name: Rajesh Dubey</p>",
     unsafe_allow_html=True
 )
+
